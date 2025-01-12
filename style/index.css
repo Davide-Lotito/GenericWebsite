@@ -1,0 +1,160 @@
+.slideshow-container {
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
+
+.single-slide{
+  display: none;
+}
+
+.single-slide img{
+  position: relative;
+  width: 60%;
+  left: 20%;
+}
+
+.dots {
+  text-align: center;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 0.5%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+} 
+
+#brief-description {
+  position: relative;
+  width: 90%;
+  left: 5%;
+}
+
+#brief-description h4 {
+  font-size: 2em;
+  letter-spacing: 0.3em;
+}
+
+/*media queries for the brief-description*/
+@media (max-width: 1100px) {
+  #brief-description h4 {
+    font-size: 1.5em;
+  }
+}
+
+/*media queries for the brief-description*/
+@media (max-width: 800px) {
+  #brief-description h4 {
+    float: none;
+    position: relative;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    padding-top: 0;
+  }
+  #brief-description img {
+    float: none;
+    position: relative;
+    width: 100%;
+  }
+  #big-menu-button{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  .single-slide img{
+    position: relative;
+    width: 100%;
+    left: 0%;
+  }
+  .dots {
+    display: none;
+}
+}
+
+#big-menu-button {
+  text-align: center;
+  letter-spacing: 0.2em;
+  font-size: 3em;
+  font-weight: bold;
+  padding-top: 2em; padding-bottom: 2em;
+  position: relative;
+  width: 90%;
+  left: 5%;
+}
+
+#big-menu-button a {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+#big-menu-button a:hover {
+  background-color: rgb(192, 192, 192);
+  color: black;
+}
+
+#alert-green-pass {
+  padding: 1%;
+  background-color: yellowgreen;
+  color: black;
+  font-size: 1em;
+  letter-spacing: 0.1em;
+}
+
+#alert-green-pass strong {
+  color: red;
+  font-size: 1.5em;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 3em;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}

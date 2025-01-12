@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    color: white;
+    background-color: rgb(150, 150, 150);
+}
+
+#item{
+    margin-top: 5%;
+    position: relative;
+    width: 80%;
+    left: 10%; right: 10%;
+    padding: 1em;
+    border: 4px yellow solid;
+    font-size: 2em;
+    border-radius: 15px 0 15px 0px;
+}
+
+#options{
+    position: relative;
+    width: 80%;
+    left: 10%; right: 10%;
+    padding: 0;
+    margin-top: 1%; margin-bottom: 5%;
+    text-align: center;
+}
+
+#options input[type=submit] {
+    background-color: #41ad5c;
+    margin-left: 2%;
+    color: #fff;
+    padding: 2em;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1em;
+    border: 2px black solid;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+
+#options input[type=submit] .logout{
+    background-color: red;
+}
+
+#options input[type=submit]:hover{
+    background: #286b39;
+}
+
+#options input[type=submit]:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.date{
+    color: black;
+    border: 2px red solid;
+}
+
+.id{
+    text-decoration: underline;
+}
+
+#counter{
+    position: relative;
+    width: 80%;
+    left: 10%; right: 10%;
+    font-size: 2em;
+    text-align: center;
+    transition: 1s;
+}
+
+#counter:hover{
+    transform: scale(1.5);
+}
+
+.value{
+    color: red;
+    border: 2px blue solid;
+    transition: 2s;
+}
+
+@media (max-width: 830px) {
+    #item{
+        padding: 0;
+        font-size: 1em;
+    }
+    #options input[type=submit] {
+        background-color: #41ad5c;
+        margin-top: 1%; margin-bottom: 1%;
+        position: relative;
+        width: 45%;
+        color: #fff;
+        padding: 1em;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 1em;
+        text-transform: none;
+        border-radius: 0;
+    }
+    #counter{
+        font-size: 1em;
+        text-align: justify;
+    }
+    #counter:hover{
+        transform: scale(1.1);
+    }
+}

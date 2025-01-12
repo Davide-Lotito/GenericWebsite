@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+    <meta charset="UTF-8">
+    <title>Le vie dei Caseari</title>
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="icon" type="image/png" href="./images/chef_white_icon.png">
+    <!-- icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sito web per un evento di formaggio. Gestito dalla associazione 'A Tutto Tondo
+    APS' ">
+    <meta name="author" content="Lotito Davide Pio">
+</head>
+<body>
+    <!--hidden link, in order to make the site more usable-->
+    <a href="#brief-description" class="hidden">Go to the main content</a>
+    <!--navigation bar-->
+    <nav id="menu">
+        <button id="back-on-top" title="back on top"><img class="center" src="./images/arrowUp.png" alt="arrow Up"></button>
+        <ul>
+            <li><a class="active" href="./index.html" title="link for this page">Home</a></li>
+            <li><a href="./pages/menu.html" title="go to the menu page">Format</a></li>
+            <!-- <li><a href="./pages/book.html" title="go to the reservations page">Reserve</a></li> -->
+            <li><a href="./pages/about.html" title="go to the about page">About</a></li>
+            <li><a href="./pages/contacts.html" title="go to the contacts page">Contatti</a></li>
+            <!-- <li class="right" id="login-page"><a class="login-link" href="./pages/login.html" title="go to the login page">Login</a></li> -->
+        </ul>
+    </nav>
+    <!--progress bar-->
+    <div id="header-progress-bar">
+        <div id="progress-bar-container">
+            <div id="progress-bar"></div>
+        </div>
+    </div>
+    <!--green pass alert-->
+    <div id="alert-green-pass">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>Warning!</strong> Sito web in fase di sviluppo. Migliorera !!
+    </div> 
+    <!--title box area-->
+    <div id="title-area">
+        <a href="./index.html" title="back to the main page"><img src="./images/chef_white_icon.png" alt="restaurant icon" title="back to the home oage"></a>
+        <h1 id="title-text" class="title-font">
+            Le vie dei Caseari <br> 
+            Piccoli Caseifici, Grandi Formaggi
+        </h1>
+    </div>
+    <!--small introduction area-->
+    <div id="brief-description" class="row">
+        <h4 class="left-float"> <em id="trans1" class="name">L’obiettivo </em> del progetto è avvicinare un pubblico vasto alla cultura casearia, ponendo particolare attenzione alle piccole aziende e 
+cooperative che controllano e gestiscono l’intera filiera produttiva, dal pascolo, all’allevamento fino alla produzione di formaggio.<br> </h4>
+        <img src="./images/inside/inside2.jpg" class="right-float" alt="sala restaurant" title="sala restaurant">
+    </div>
+
+    <!--big menu button-->
+    <div id="big-menu-button">
+        <a href="./pages/menu.html" title="menu page">Il Format</a>
+    </div>
+
+    <!-- slideshow container -->
+    <main class="slideshow-container">
+        <div class="single-slide fade">
+            <img src="./images/foodSS/food1.jpg" title="food 1: formaggio1" alt="food 1: formaggio1">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/food2.jpg" title="food 2: big formaggio2" alt="food 2: formaggio2">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/food3.jpg" title="food 3: small formaggio3" alt="food 3: formaggio3">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/food4.jpg" title="food 4: formaggio4" alt="food 4: formaggio4">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/food5.jpg" title="food 5: formaggio5" alt="food 5: formaggio5">
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </main>
+    <footer id="footer">
+        &copy; Copyright 2025 <br> Le vie dei Caseari
+        <br>
+        <div class="social-links">
+            <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" title="facebook page"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter" target="_blank" title="twitter page"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" title="instagram page"></a>
+        </div>
+    </footer>
+    <script src="./script/common.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+
+</html>
