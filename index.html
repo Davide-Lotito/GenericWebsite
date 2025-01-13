@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="it">
     <meta charset="UTF-8">
-    <title>Le vie dei Caseari</title>
+    <title>Le vie dei Casari</title>
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/index.css">
     <link rel="icon" type="image/png" href="./images/chef_white_icon.png">
     <!-- icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merryweather&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sito web per un evento di formaggio. Gestito dalla associazione 'A Tutto Tondo
     APS' ">
@@ -15,47 +16,40 @@
 <body>
     <!--hidden link, in order to make the site more usable-->
     <a href="#brief-description" class="hidden">Go to the main content</a>
+
     <!--navigation bar-->
     <nav id="menu">
         <button id="back-on-top" title="back on top"><img class="center" src="./images/arrowUp.png" alt="arrow Up"></button>
         <ul>
             <li><a class="active" href="./index.html" title="link for this page">Home</a></li>
-            <li><a href="./pages/menu.html" title="go to the menu page">Format</a></li>
+            <li><a href="./pages/menu.html" title="go to the Event page">Evento</a></li>
             <!-- <li><a href="./pages/book.html" title="go to the reservations page">Reserve</a></li> -->
-            <li><a href="./pages/about.html" title="go to the about page">About</a></li>
+            <li><a href="./pages/about.html" title="go to the About page">Chi Siamo</a></li>
             <li><a href="./pages/contacts.html" title="go to the contacts page">Contatti</a></li>
             <!-- <li class="right" id="login-page"><a class="login-link" href="./pages/login.html" title="go to the login page">Login</a></li> -->
         </ul>
     </nav>
+
     <!--progress bar-->
     <div id="header-progress-bar">
         <div id="progress-bar-container">
             <div id="progress-bar"></div>
         </div>
     </div>
-    <!--green pass alert-->
+
+    <!--alert-->
     <div id="alert-green-pass">
         <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <strong>Warning!</strong> Sito web in fase di sviluppo. Migliorera !!
+        <strong>Warning!</strong> Sito web in fase di sviluppo. Migliorerà !!
     </div> 
+
     <!--title box area-->
     <div id="title-area">
-        <a href="./index.html" title="back to the main page"><img src="./images/chef_white_icon.png" alt="restaurant icon" title="back to the home oage"></a>
+        <a href="./index.html" title="back to the main page"><img id="title-area-image" src="./images/chef_white_icon.png" alt="event icon" title="back to the home oage"></a>
         <h1 id="title-text" class="title-font">
-            Le vie dei Caseari <br> 
-            Piccoli Caseifici, Grandi Formaggi
+            Le vie dei Casari <br> 
+            <i id="title-text-small">Piccoli Caseifici, Grandi Formaggi</i>
         </h1>
-    </div>
-    <!--small introduction area-->
-    <div id="brief-description" class="row">
-        <h4 class="left-float"> <em id="trans1" class="name">L’obiettivo </em> del progetto è avvicinare un pubblico vasto alla cultura casearia, ponendo particolare attenzione alle piccole aziende e 
-cooperative che controllano e gestiscono l’intera filiera produttiva, dal pascolo, all’allevamento fino alla produzione di formaggio.<br> </h4>
-        <img src="./images/inside/inside2.jpg" class="right-float" alt="sala restaurant" title="sala restaurant">
-    </div>
-
-    <!--big menu button-->
-    <div id="big-menu-button">
-        <a href="./pages/menu.html" title="menu page">Il Format</a>
     </div>
 
     <!-- slideshow container -->
@@ -83,8 +77,25 @@ cooperative che controllano e gestiscono l’intera filiera produttiva, dal pasc
             <span class="dot" onclick="currentSlide(5)"></span>
         </div>
     </main>
+
+    <!--big menu button-->
+    <div id="big-menu-button">
+        <a href="./pages/menu.html" title="menu page">L'Evento</a>
+    </div>
+
+    <!--small introduction area-->
+    <div id="brief-description" class="row">
+        <h4> 
+            <em id="trans1" class="name">L’obiettivo </em> del progetto è avvicinare un pubblico vasto alla cultura Casaria, ponendo particolare attenzione alle piccole aziende e 
+            cooperative che controllano e gestiscono l’intera filiera produttiva, dal pascolo, all’allevamento fino alla produzione di formaggio. 
+        </h4>
+        <img src="./images/inside/location.png" alt="main location event" title="location event">
+    </div>
+
     <footer id="footer">
-        &copy; Copyright 2025 <br> Le vie dei Caseari
+        <dev id="copyright">
+            &copy; Copyright 2025 <br> Le vie dei Casari
+        </dev>
         <br>
         <div class="social-links">
             <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" title="facebook page"></a>

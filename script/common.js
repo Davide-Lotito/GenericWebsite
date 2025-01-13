@@ -37,3 +37,13 @@ window.onscroll = function () {
 document.getElementById("back-on-top").addEventListener("click", ()=>{
     topFunction();
 })
+
+/** 
+ * sound effect for button
+*/
+const buttontop = document.getElementById('back-on-top');
+const audio = new Audio('../sounds/fart.mp3');
+
+buttontop.addEventListener('click', () => {
+    audio.play();
+});

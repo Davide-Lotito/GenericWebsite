@@ -1,12 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 100%;
+    font-size: 60%;
     font-family: Verdana, sans-serif;
-    font-family: "Indie Flower";
-    color: white;
-    background-color: black;
-    background-color: darkslategrey;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    /* background-color: black;
+    background-color: darkslategrey; */
+    background-color: rgb(245, 245, 220);
     background-repeat: no-repeat;
 }
 
@@ -17,10 +18,10 @@ body {
     width: 10%;
     z-index: 99;
     outline: none;
-    background-color: rgb(13, 192, 236);
+    background-color: rgb(245, 245, 220);
     opacity: 0.5;
     cursor: pointer;
-    padding-top: 1em; padding-bottom: 1em;
+    padding-top: 0; padding-bottom: 0;
     padding-left: 0; padding-right: 0;
     border: none;
     border-radius: 8px;
@@ -35,7 +36,9 @@ body {
     padding: 0;
     position: relative;
     width: 100%;
+    color: #000;
     left: 0; right: 0;
+    
 }
 
 #menu ul {
@@ -43,7 +46,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: RGB(200, 200, 160);
     opacity: 0.8;
 }
 
@@ -54,7 +57,7 @@ body {
 
 #menu li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 0.3em 0.5em;
     text-decoration: none;
@@ -87,22 +90,30 @@ body {
     }
 }
 
-@font-face {
+/* @font-face {
     font-family: "Indie Flower";
     src: url("./fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 #footer {
     position: relative;
     bottom: 0;
     top: 3em;
     width: 100%;
-    background-color: #333;
-    text-align: left;
-    font-size: 100%;
+    color: black;
+    background-color: RGB(200, 200, 160);
+    text-align: center;
+    font-size: 120%;
     padding-top: 1em; padding-bottom: 1em;
+}
+
+/* #footer .copyright {
+    text-align: right;
+    position: absolute;
+    top: 1em;
+    left: 1em;
 }
 
 #footer .social-links {
@@ -110,7 +121,7 @@ body {
     position: absolute;
     top: 1em;
     right: 1em;
-}
+} */
 
 .fa {
     padding: 0.5em;
@@ -157,6 +168,10 @@ body {
     left: 10%;
 }
 
+#title-text-small{
+    font-size: 80%;
+}
+
 #title-text {
     text-align: center;
     margin-top: 0.3em;
@@ -164,7 +179,8 @@ body {
 
 #title-area img {
     position: relative;
-    left: 40%;
+    width: 10%;
+    left: 45%;
     padding-top: 1em;
     max-width: 15%;
 }

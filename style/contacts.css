@@ -14,12 +14,13 @@
     clear: both;
 }
 
-#main-contacts h2{
+#main-contacts h3{
     margin-top: 2em;
     text-align: center;
     font-size: xx-large;
     padding-bottom: 0;
     background-color: rgb(54, 54, 54);
+    color: white;
     border-radius: 15px 0 15px 0px;;
 }
 
