@@ -1,37 +1,42 @@
 .about {
     position: relative;
-    width: 80%;
-    left: 10%;
-}
-
-.about h4, h3{
-    font-size: 2em;
-    letter-spacing: 0.3em;
+    width: 100%;
+    left: 0%;
 }
 
 #up{
     position: relative;
-    width: 80%;
-    left: 10%;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 #bottom{
     position: relative;
-    width: 80%;
-    left: 10%;
-    padding-top: 0.1em;
-}
-
-#bottom img{
-    position: relative;
-    width: 30%;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 5%;
     margin-top: 5%;
 }
 
+
+#bottom-central{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#up img{
+    position: relative;
+    width: 30%;
+}
+
 #bottom img{
     position: relative;
     width: 30%;
-    margin: 5%;
 }
 
 /*media queries fot layout*/
@@ -41,24 +46,17 @@
         position: relative;
         width: 80%;
         left: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
     }
-    #up h4{
+    .text{
         float: none;
-        font-size: 1.5em;
         position: relative;
-        width: 80%;
-        left: 10%;
+        width: 100%;
+        left: 0%;
         text-align: center;
     }
     #bottom img{
         display: none;
-    }
-    #bottom h4{
-        float: none;
-        font-size: 1.5em;
-        position: relative;
-        width: 80%;
-        left: 10%;
-        text-align: center;
     }
 }

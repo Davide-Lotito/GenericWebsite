@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-size: 60%;
+    font-size: 70%;
     font-family: Verdana, sans-serif;
     font-family: 'Raleway', sans-serif;
     color: black;
@@ -9,6 +9,11 @@ body {
     background-color: darkslategrey; */
     background-color: rgb(245, 245, 220);
     background-repeat: no-repeat;
+}
+
+#title-area-image{
+    width: 20%;
+    height: 10%;
 }
 
 #back-on-top {
@@ -61,6 +66,10 @@ body {
     text-align: center;
     padding: 0.3em 0.5em;
     text-decoration: none;
+}
+
+.text{
+    font-size: 2em;
 }
 
 #menu li a:hover:not(.active) {
@@ -164,8 +173,9 @@ body {
 
 #title-area {
     position: relative;
-    width: 80%;
-    left: 10%;
+    width: 100%;
+    left: 0%;
+    background-color: yellow;
 }
 
 #title-text-small{
@@ -233,4 +243,11 @@ span{
 
 .hidden{
     display: none;
+}
+
+@media (max-width: 700px) {
+    #title-area-image{
+        height: 100px;
+        width: 50px;
+    }
 }

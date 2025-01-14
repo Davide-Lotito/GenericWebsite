@@ -1,15 +1,15 @@
 #food-menu{
     position: relative;
-    width: 70%;
-    left: 15%;
+    width: 90%;
+    left: 5%;
     box-sizing: border-box;
     padding-bottom: 1em;
 }
 
 #food-menu-text{
     position: relative;
-    width: 70%;
-    left: 15%;
+    width: 100%;
+    left: 0%;
     font-size: 2em;
 }
 
@@ -102,13 +102,26 @@
     .sub-menu p{
         font-size: 2em;
     }
+    #food-menu{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        text-align: center;
+    }
     #food-menu img,
     #explain img {
-        width: 15px;
-        height: 15px;
+        position: relative;
+        width: 80%;
+        left: 10%;
     }
     #explain {
         font-size: 1.5em;
+    }
+    #up img{
+        float: none;
+        position: relative;
+        width: 80%;
+        left: 10%;
     }
 }
 
@@ -127,6 +140,12 @@
     }
     .sub-menu h1 span{
         font-size: 0.4em;
+    }
+    #food-menu{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        text-align: center;
     }
 }
 
