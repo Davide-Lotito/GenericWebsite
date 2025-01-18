@@ -118,7 +118,7 @@
         position: relative;
         width: 90%;
         left: 5%;
-        text-align: center;
+        text-align: left;
     }
     #food-menu img,
     #explain img {
@@ -135,6 +135,14 @@
         width: 80%;
         left: 10%;
     }
+    #food-menu ul{
+        list-style: circle;
+        text-decoration: none;
+    }
+    #food-menu li{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
 }
 
 @media (max-width: 900px){
@@ -148,7 +156,7 @@
     }
     .sub-menu p{
         font-size: 1em;
-        text-align: center;
+        text-align: left;
     }
     .sub-menu h1 span{
         font-size: 0.4em;
@@ -157,7 +165,15 @@
         position: relative;
         width: 90%;
         left: 5%;
-        text-align: center;
+        text-align: left;
+    }
+    #food-menu ul{
+        list-style: circle;
+        text-decoration: none;
+    }
+    #food-menu li{
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
     }
 }
 
@@ -171,15 +187,22 @@
     position: relative;
     width: 90%;
     left: 5%;
-  }
+}
   
-  #big-menu-button a {
+#big-menu-button a {
     text-decoration: none;
     background-color: black;
     color: white;
-  }
+}
   
-  #big-menu-button a:hover {
+#big-menu-button a:hover {
     background-color: rgb(192, 192, 192);
     color: black;
-  }
+}
+
+h3 {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+}

@@ -118,20 +118,6 @@ body {
     padding-top: 1em; padding-bottom: 1em;
 }
 
-/* #footer .copyright {
-    text-align: right;
-    position: absolute;
-    top: 1em;
-    left: 1em;
-}
-
-#footer .social-links {
-    text-align: right;
-    position: absolute;
-    top: 1em;
-    right: 1em;
-} */
-
 .fa {
     padding: 0.5em;
     width: 1em; height: 1em;
@@ -167,13 +153,10 @@ body {
 }
 
 #image-background {
-    /* position: relative;
-    width: 100%;
-    left: 0%; */
     margin: 0;
     padding: 0;    
     width: 100%;
-    height: 50vh;
+    height: 70vh;
     background-image: url('../images/foodSS/4.jpg');
     background-repeat: no-repeat;
     background-position: center center;
