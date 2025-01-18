@@ -21,12 +21,10 @@
     <nav id="menu">
         <button id="back-on-top" title="back on top"><img class="center" src="./images/arrowUp.png" alt="arrow Up"></button>
         <ul>
-            <li><a class="active" href="./index.html" title="link for this page">Home</a></li>
-            <li><a href="./pages/menu.html" title="go to the Event page">Evento</a></li>
-            <!-- <li><a href="./pages/book.html" title="go to the reservations page">Reserve</a></li> -->
-            <li><a href="./pages/about.html" title="go to the About page">Chi Siamo</a></li>
-            <li><a href="./pages/contacts.html" title="go to the contacts page">Contatti</a></li>
-            <!-- <li class="right" id="login-page"><a class="login-link" href="./pages/login.html" title="go to the login page">Login</a></li> -->
+            <li><a class="active" href="../index.html" title="link for this page">Home</a></li>
+            <li><a href="../pages/menu.html" title="go to the Event page">L'Evento</a></li>
+            <li><a href="../pages/about.html" title="go to the About page">Chi Siamo</a></li>
+            <li><a href="../pages/contacts.html" title="go to the contacts page">La Villa</a></li>
         </ul>
     </nav>
 
@@ -37,37 +35,71 @@
         </div>
     </div>
 
-    <!--alert-->
-    <div id="alert-green-pass">
-        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-        <strong>Warning!</strong> Sito web in fase di sviluppo. Migliorerà !!
-    </div> 
+    <div id="image-background">
+        <!--title box area-->
+        <div id="title-area">
+            <a href="./index.html" title="back to the main page"><img id="title-area-image" src="./images/chef_white_icon.png" alt="event icon" title="back to the home page"></a>
+            <h1 id="title-text" class="title-font">
+                LE VIE DEI CASARI <br> 
+                <i id="title-text-small">Piccoli Caseifici, Grandi Formaggi</i>
+            </h1>
+        </div>
 
-    <!--title box area-->
-    <div id="title-area">
-        <a href="./index.html" title="back to the main page"><img id="title-area-image" src="./images/chef_white_icon.png" alt="event icon" title="back to the home oage"></a>
-        <h1 id="title-text" class="title-font">
-            Le vie dei Casari <br> 
-            <i id="title-text-small">Piccoli Caseifici, Grandi Formaggi</i>
-        </h1>
+        <!--area del biglietto-->
+        <div>
+            <div id="title-area">
+                <h4 id="title-text" class="title-font2"> 
+                    10 | 11 Maggio 2025
+                    <br>
+                    Villa Mezzabarba, Borgarello (PV)
+                    <br>
+                    Biglietti disponibili <a id="link-ticket" href="https://oooh.events/" target="_blank" title="ticket page">qui</a>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <!--small introduction area-->
+    <div id="brief-description" class="row">
+        <div class="text"> 
+            Le <em id="trans1" class="name">Vie dei Casari</em> vuole raccontare delle realtà che animano piccole filiere lattiero-casearie dell’Arco Alpino in cui il pascolo, il benessere degli animali, la qualità del latte, la sua trasformazione in formaggi e la sostenibilità rappresentano quei valori che oggi devono condizionare la scelta finale di un qualsiasi consumatore consapevole. I territori, gli animali, le casare, i casari, le loro personalità, le loro famiglie, le loro storie. I formaggi che li rappresentano non sono altro che la naturale espressione e sintesi di tutti questi elementi.
+            <br><br>
+            Scopri <a href="./pages/menu.html" title="evento page">qui</a> il nostro evento.
+        </div>
+        <!-- <img src="./images/inside/location.png" alt="main location event" title="location event"> -->
     </div>
 
     <!-- slideshow container -->
     <main class="slideshow-container">
         <div class="single-slide fade">
-            <img src="./images/foodSS/food1.jpg" title="food 1: formaggio1" alt="food 1: formaggio1">
+            <img src="./images/foodSS/1.jpg">
         </div>
         <div class="single-slide fade">
-            <img src="./images/foodSS/food2.jpg" title="food 2: big formaggio2" alt="food 2: formaggio2">
+            <img src="./images/foodSS/2.jpg">
         </div>
         <div class="single-slide fade">
-            <img src="./images/foodSS/food3.jpg" title="food 3: small formaggio3" alt="food 3: formaggio3">
+            <img src="./images/foodSS/3.jpg">
         </div>
         <div class="single-slide fade">
-            <img src="./images/foodSS/food4.jpg" title="food 4: formaggio4" alt="food 4: formaggio4">
+            <img src="./images/foodSS/4.jpg">
         </div>
         <div class="single-slide fade">
-            <img src="./images/foodSS/food5.jpg" title="food 5: formaggio5" alt="food 5: formaggio5">
+            <img src="./images/foodSS/5.jpg">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/6.jpg">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/7.jpg">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/8.jpg"">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/9.jpg">
+        </div>
+        <div class="single-slide fade">
+            <img src="./images/foodSS/10.jpg">
         </div>
         <div class="dots">
             <span class="dot" onclick="currentSlide(1)"></span>
@@ -75,22 +107,66 @@
             <span class="dot" onclick="currentSlide(3)"></span>
             <span class="dot" onclick="currentSlide(4)"></span>
             <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
         </div>
     </main>
 
-    <!--big menu button-->
-    <div id="big-menu-button">
-        <a href="./pages/menu.html" title="menu page">L'Evento</a>
-    </div>
-
-    <!--small introduction area-->
-    <div id="brief-description" class="row">
-        <div class="text"> 
-            L' <em id="trans1" class="name">obiettivo </em> del progetto è avvicinare un pubblico vasto alla cultura Casaria, ponendo particolare attenzione alle piccole aziende e 
-            cooperative che controllano e gestiscono l’intera filiera produttiva, dal pascolo, all’allevamento fino alla produzione di formaggio. 
+    <!--sezione degli sponsor-->
+    <section class="sponsor-section">
+        <div class="sponsor-row">
+          <h5>Promosso da</h5>
+          <div class="sponsor-logos">
+          <div class="sponsor-logo"><img src="./images/sponsor/APS.png" alt="Logo APS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/ONAF-TRAS.png" alt="Logo ONAF"></div>
+        </div></div>
+        <hr> 
+        <div class="sponsor-row">
+          <h5>Con il patrocino di</h5>
+          <div class="sponsor-logo"><img src="./images/sponsor/COMUNE-BORGARELLO-TRAS.png" alt="Logo Comune"></div>
         </div>
-        <img src="./images/inside/location.png" alt="main location event" title="location event">
-    </div>
+        <hr> 
+        <div class="sponsor-row">
+          <h5>In collaborazione con</h5>
+          <div class="sponsor-logos">
+            <div class="sponsor-logo"><img src="./images/sponsor/UB-TRAS.png" alt="Logo UB"></div>
+            <div class="sponsor-logo"><img src="./images/sponsor/SAKE-TRAS.png" alt="Logo SAKE"></div>
+            <div class="sponsor-logo"><img src="./images/sponsor/LOGO.png" alt="Logo associazione casari"></div>
+            <div class="sponsor-logo"><img src="./images/sponsor/FISAR-PAVIA-TRAS.png" alt="Logo FISAR"></div>
+          </div>
+        </div>
+        <hr> 
+        <div class="sponsor-row">
+          <h5>Sponsor</h5>
+          <div class="sponsor-logos">
+          <div class="sponsor-logo"><img src="./images/sponsor/ESTREMA-ALPEGGIO-TRAS.png" alt="Logo ESTREMA-ALPEGGIO-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/EGGEMOA-TRAS.png" alt="Logo EGGEMOA-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/BURKI-TRAS.png" alt="Logo BURKI-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/BETTONI-SILTER-TRAS.png" alt="Logo BETTONI-SILTER-TRAS"></div>
+          </div></div>
+        <div class="sponsor-row"> 
+        <div class="sponsor-logos">
+          <div class="sponsor-logo"><img src="./images/sponsor/BRE-TRAS.png" alt="Logo BRE-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/STRACHITUNT-TRAS.png" alt="Logo STRACHITUNT-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/FORMAI-DE-MUT-TRAS.png" alt="Logo FORMAI-DE-MUT-TRAS"></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/BITTO-CASERA-TRAS.png" alt="Logo "></div>
+        </div></div>
+        <hr> 
+        <div class="sponsor-row">
+          <h5>Media Partner</h5>
+          <div class="sponsor-logos">
+          <div class="sponsor-logo"><img src="./images/sponsor/RP-TRAS.png" alt="Logo "></div>
+          <div class="sponsor-logo"><img src="./images/sponsor/VIDEODEGUSTANDO.png" alt="Logo VIDEODEGUSTANDO"></div>
+        </div></div>
+        <hr> 
+        <div class="sponsor-row">
+          <h5>Organizzatori</h5>
+          <div class="sponsor-logo"><img src="./images/sponsor/APS.png" alt="Logo APS"></div>
+        </div>
+    </section>
 
     <footer id="footer">
         <dev id="copyright">
@@ -99,7 +175,6 @@
         <br>
         <div class="social-links">
             <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank" title="facebook page"></a>
-            <a href="https://www.twitter.com/" class="fa fa-twitter" target="_blank" title="twitter page"></a>
             <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank" title="instagram page"></a>
         </div>
     </footer>

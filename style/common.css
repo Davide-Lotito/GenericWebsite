@@ -41,9 +41,9 @@ body {
     padding: 0;
     position: relative;
     width: 100%;
+    /* width: 100vw; */
     color: #000;
     left: 0; right: 0;
-    
 }
 
 #menu ul {
@@ -114,7 +114,7 @@ body {
     color: black;
     background-color: RGB(200, 200, 160);
     text-align: center;
-    font-size: 120%;
+    font-size: 2em;
     padding-top: 1em; padding-bottom: 1em;
 }
 
@@ -166,7 +166,74 @@ body {
     text-align: center;
 }
 
+#image-background {
+    /* position: relative;
+    width: 100%;
+    left: 0%; */
+    margin: 0;
+    padding: 0;    
+    width: 100%;
+    height: 50vh;
+    background-image: url('../images/foodSS/4.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#brief-description {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  #brief-description img{
+    margin-top: 5%;
+  }
+  
+  #brief-description h4 {
+    font-size: 2em;
+    letter-spacing: 0.3em;
+  }
+  
+  #brief-description a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+  }
+
+#alert-green-pass {
+    padding: 1%;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+  }
+  
+  #alert-green-pass strong {
+    color: red;
+    font-size: 1.5em;
+  }
+
+#title-text {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    margin-top: 0.3em;
+    background-color: antiquewhite;
+    opacity: 0.8;
+    border-radius: 15px;
+  }
+
 .title-font {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.title-font2 {
     font-size: 4em;
     font-weight: bold;
 }
@@ -175,7 +242,6 @@ body {
     position: relative;
     width: 100%;
     left: 0%;
-    background-color: yellow;
 }
 
 #title-text-small{
@@ -183,8 +249,12 @@ body {
 }
 
 #title-text {
+    position: relative;
+    width: 50%;
+    left: 25%;
     text-align: center;
     margin-top: 0.3em;
+
 }
 
 #title-area img {
@@ -249,5 +319,10 @@ span{
     #title-area-image{
         height: 100px;
         width: 50px;
+    }
+    #title-text{
+        position: relative;
+        width: 100%;
+        left: 0%;
     }
 }
