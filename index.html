@@ -4,13 +4,12 @@
     <title>Le vie dei Casari</title>
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/index.css">
-    <link rel="icon" type="image/png" href="./images/chef_white_icon.png">
+    <link rel="icon" type="image/png" href="./images/chef_white_icon2.png">
     <!-- icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Merryweather&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Sito web per un evento di formaggio. Gestito dalla associazione 'A Tutto Tondo
-    APS' ">
+    <meta name="description" content="Sito web per un evento di formaggio. Gestito dalla associazione 'A Tutto Tondo APS' ">
     <meta name="author" content="Lotito Davide Pio">
 </head>
 <body>
@@ -19,12 +18,16 @@
 
     <!--navigation bar-->
     <nav id="menu">
-        <button id="back-on-top" title="back on top"><img class="center" src="./images/arrowUp.png" alt="arrow Up"></button>
+        <button id="back-on-top" title="back on top"><img class="center" src="./images/chef_white_icon2.png" alt="arrow Up"></button>
         <ul>
             <li><a class="active" href="./index.html" title="link for this page">Home</a></li>
-            <li><a href="./pages/menu.html" title="go to the Event page">L'Evento</a></li>
-            <li><a href="./pages/about.html" title="go to the About page">Chi Siamo</a></li>
-            <li><a href="./pages/contacts.html" title="go to the contacts page">La Villa</a></li>
+            <li><a href="./pages/menu.html#evento" title="go to the Event section">Evento</a></li>
+            <li><a href="./pages/menu.html#progetto" title="go to the Progetto section">Progetto</a></li>
+            <li><a href="./pages/menu.html#orari" title="go to the Orari section">Orari</a></li>
+            <li><a href="./pages/menu.html#biglietti" title="go to the Biglietti section">Biglietti</a></li>
+            <li><a href="./pages/menu.html#programma" title="go to the Programma section">Programma</a></li>
+            <li><a href="./pages/menu.html#contatti" title="go to the Contatti section">Contatti</a></li>
+            <li><a href="./pages/menu.html#villa" title="go to the Villa section">Location</a></li>
         </ul>
     </nav>
 
@@ -35,85 +38,40 @@
         </div>
     </div>
 
-    <div id="image-background">
-        <!--title box area-->
+    <header id="image-background">
         <div id="title-area">
+            <!--logo area-->
             <a href="./index.html" title="back to the main page"><img id="title-area-image" src="./images/chef_white_icon.png" alt="event icon" title="back to the home page"></a>
-            <h1 id="title-text" class="title-font">
-                LE VIE DEI CASARI <br> 
-                <i id="title-text-small">Piccoli Caseifici, Grandi Formaggi</i>
-            </h1>
+
+            <!--title box area-->
+            <h3 id="title-text">
+                <span class="title-font">10 | 11 maggio 2025</span><br>
+                <span class="title-font2">Villa Mezzabarba </span><br>
+                <span class="title-font2">(PV)</span>
+            </h3>
         </div>
 
-        <!--area del biglietto-->
-        <div>
-            <div id="title-area">
-                <h4 id="title-text" class="title-font2"> 
-                    10 | 11 Maggio 2025
-                    <br>
-                    Villa Mezzabarba, Borgarello (PV)
-                    <br>
-                    Biglietti disponibili <a id="link-ticket" href="https://oooh.events/" target="_blank" title="ticket page">qui</a>
-                </h4>
-            </div>
+        <div id="brief-description" class="row">
+            <h3 class="title-font2"> 
+                Alla scoperta di 70 <i class="title-font3">Grandi Formaggi di Piccoli Caseifici</i> <br>
+                dell'arco Alpino. 
+            </h3>
+            <br><br>
+            <h3 class="title-font4">
+                Accompagneranno l'esperienza i Vini proposti dai Sommelier di FISAR Pavia, le Birre Artigianali di UNIONBIRRAI e la intrigante degustazione
+                di Sake presentata da SAKE SOMMELIER ASSOCIATION ITALIANA. 
+            </h3>
         </div>
-    </div>
+    </header>
 
-    <!--small introduction area-->
     <div id="brief-description" class="row">
         <div class="text"> 
             Le <em id="trans1" class="name">Vie dei Casari</em> vuole raccontare delle realtà che animano piccole filiere lattiero-casearie dell’Arco Alpino in cui il pascolo, il benessere degli animali, la qualità del latte, la sua trasformazione in formaggi e la sostenibilità rappresentano quei valori che oggi devono condizionare la scelta finale di un qualsiasi consumatore consapevole. I territori, gli animali, le casare, i casari, le loro personalità, le loro famiglie, le loro storie. I formaggi che li rappresentano non sono altro che la naturale espressione e sintesi di tutti questi elementi.
-            <br><br>
+            <br><br><br><br>
             Scopri <a href="./pages/menu.html" title="evento page">qui</a> il nostro evento.
         </div>
-        <!-- <img src="./images/inside/location.png" alt="main location event" title="location event"> -->
     </div>
 
-    <!-- slideshow container -->
-    <main class="slideshow-container">
-        <div class="single-slide fade">
-            <img src="./images/foodSS/1.JPG">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/2.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/3.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/4.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/5.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/6.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/7.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/8.jpg"">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/9.jpg">
-        </div>
-        <div class="single-slide fade">
-            <img src="./images/foodSS/10.JPG">
-        </div>
-        <div class="dots">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-            <span class="dot" onclick="currentSlide(9)"></span>
-            <span class="dot" onclick="currentSlide(10)"></span>
-        </div>
-    </main>
 
     <!--sezione degli sponsor-->
     <section class="sponsor-section">
@@ -126,7 +84,10 @@
         <hr> 
         <div class="sponsor-row">
           <h5>Con il patrocino di</h5>
-          <div class="sponsor-logo"><img src="./images/sponsor/COMUNE-BORGARELLO-TRAS.png" alt="Logo Comune"></div>
+          <div class="sponsor-logos">
+            <div class="sponsor-logo"><img src="./images/sponsor/COMUNE-BORGARELLO-TRAS.png" alt="Logo Comune"></div>
+            <div class="sponsor-logo"><img src="./images/sponsor/Logo-Provincia-Pavia.png" alt="Logo Provincia"></div>
+          </div>
         </div>
         <hr> 
         <div class="sponsor-row">

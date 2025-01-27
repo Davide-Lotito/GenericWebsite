@@ -1,14 +1,40 @@
-#food-menu{
+.food-menu{
     position: relative;
     width: 90%;
     left: 5%;
     box-sizing: border-box;
     padding-bottom: 1em;
+    margin-top: 2%;
 }
 
-#food-menu ul{
-    list-style: none;
-    text-decoration: none;
+.food-menu1{
+    position: relative;
+    width: 100%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-menu1 .left{
+    position: relative;
+    width: 50%;
+    left: 0%;
+    padding-right: 1em;
+}
+
+.food-menu1 .right{
+    position: relative;
+    width: 50%;
+    right: 0%;
+    padding-left: 1em;
+}
+
+.food-menu-text .center{
+    text-align: center;
+}
+
+.food-menu1 img{
+    border-radius: 15%;
 }
 
 #food-menu-text{
@@ -18,17 +44,26 @@
     font-size: 2em;
 }
 
-#food-menu a {
+#food-menu-text img{
+    position: relative;
+    width: 100%;
+    left: 0%;
+    max-height: 600px;
+    border-radius: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.food-menu a {
     text-decoration: none;
     font-weight: bold;
-    background-color: black;
+    background-color: #e88100;
     color: white;
 }
 
-#food-menu img,
-#explain img {
-    width: 30px;
-    height: 30px;
+#data{
+    text-align: center;
+    margin-bottom: 2%;
 }
 
 #menu-select{
@@ -104,6 +139,12 @@
     color: black;
 }
 
+hr {
+    border: 1px solid #e88100;
+    width: 80%;
+    margin: 20px auto;
+}
+
 @media (max-width: 1400px){
     #menu-select{
         font-size: 2em;
@@ -114,13 +155,13 @@
     .sub-menu p{
         font-size: 2em;
     }
-    #food-menu{
+    .food-menu{
         position: relative;
         width: 90%;
         left: 5%;
         text-align: left;
     }
-    #food-menu img,
+    .food-menu img,
     #explain img {
         position: relative;
         width: 80%;
@@ -135,11 +176,11 @@
         width: 80%;
         left: 10%;
     }
-    #food-menu ul{
+    .food-menu ul{
         list-style: circle;
         text-decoration: none;
     }
-    #food-menu li{
+    .food-menu li{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
@@ -161,27 +202,36 @@
     .sub-menu h1 span{
         font-size: 0.4em;
     }
-    #food-menu{
+    .food-menu{
         position: relative;
         width: 90%;
         left: 5%;
         text-align: left;
     }
-    #food-menu ul{
+    .food-menu ul{
         list-style: circle;
         text-decoration: none;
     }
-    #food-menu li{
+    .food-menu li{
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
+}
+
+#no-dogs{
+    position: relative;
+    width: 50%;
+    left: 40%;
+}
+
+#no-dogs img{
+    max-width: 50px;
 }
 
 
 #big-menu-button {
     text-align: center;
     letter-spacing: 0.2em;
-    font-size: 3em;
     font-weight: bold;
     padding-top: 2em; padding-bottom: 2em;
     position: relative;
@@ -191,18 +241,28 @@
   
 #big-menu-button a {
     text-decoration: none;
-    background-color: black;
+    background-color: #e88100;
     color: white;
 }
-  
-#big-menu-button a:hover {
-    background-color: rgb(192, 192, 192);
-    color: black;
-}
+
 
 h3 {
     position: relative;
     width: 90%;
     left: 5%;
     text-align: center;
+}
+
+#no-point {
+    list-style: none;
+    padding-top: 1em;
+    font-size: smaller;
+}
+
+#mappa{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
