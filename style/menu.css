@@ -19,14 +19,14 @@
     position: relative;
     width: 50%;
     left: 0%;
-    padding-right: 1em;
+    padding-right: 1em !important;
 }
 
 .food-menu1 .right{
     position: relative;
     width: 50%;
     right: 0%;
-    padding-left: 1em;
+    padding-left: 1em !important;
 }
 
 .food-menu1 img{
@@ -174,77 +174,53 @@ h3 {
     background-color: transparent;
 }
 
-@media (max-width: 1400px){
-    #menu-select{
-        font-size: 2em;
-    }
-    .food-name{
-        font-size: 2em;
-    }
-    .sub-menu p{
-        font-size: 2em;
+@media (max-width: 900px){
+    #title-area{
+        margin: 0%;
     }
     .food-menu{
         position: relative;
-        width: 90%;
-        left: 5%;
+        width: 80%;
+        left: 10%;
         text-align: left;
     }
-    .food-menu img,
-    #explain img {
-        position: relative;
-        width: 80%;
-        left: 10%;
+    #evento img{
+        display: none;
     }
-    #explain {
-        font-size: 1.5em;
+    #progetto img{
+        display: none;
     }
-    #up img{
-        float: none;
-        position: relative;
-        width: 80%;
-        left: 10%;
+    .title-font4{
+        font-size: 3em;
     }
-    .food-menu ul{
-        list-style: circle;
-        text-decoration: none;
+    #biglietti{
+        text-align: center;
     }
-    .food-menu li{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
+    .food-menu1{
+        display: block;
+        justify-content: space-between;
+        text-align: left;
+    }
+    #biglietti .none{
+        display: none;
+    }
+    .yes{
+        display: inline !important;
+        margin-bottom: 0;
+    }
+    #programma, #contatti{
+        li {
+            margin-top: 5%;
+        }
     }
 }
 
-@media (max-width: 900px){
-    .column{
-       float: none;
-       position: relative;
-       width: 100%; 
-    }
-    .sub-menu h1{
-        text-align: center;
-    }
-    .sub-menu p{
-        font-size: 1em;
-        text-align: left;
-    }
-    .sub-menu h1 span{
-        font-size: 0.4em;
-    }
-    .food-menu{
-        position: relative;
-        width: 90%;
-        left: 5%;
-        text-align: left;
-    }
-    .food-menu ul{
-        list-style: circle;
-        text-decoration: none;
-    }
-    .food-menu li{
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }
+.yes{
+    display: none;
+}
+
+.abbsso{
+    margin-top: 20%;
 }
 
 #no-dogs{

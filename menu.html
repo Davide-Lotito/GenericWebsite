@@ -2,10 +2,10 @@
 <html lang="it">
     <meta charset="UTF-8">
     <title>Le vie dei Casari</title>
-    <link rel="stylesheet" href="../style/common.css">
-    <link rel="stylesheet" href="../style/menu.css">
-    <link rel="stylesheet" href="../style/about.css">
-    <link rel="icon" type="image/png" href="../images/chef_white_icon2.png">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/menu.css">
+    <link rel="stylesheet" href="./style/about.css">
+    <link rel="icon" type="image/png" href="./images/chef_white_icon2.png">
     <!-- icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Merryweather&display=swap" rel="stylesheet">
@@ -18,27 +18,25 @@
     <!--hidden link, in order to make the site more usable-->
     <a href="#food-menu" class="hidden">Go to the main content</a>
     <!--navigation bar-->
-    <nav id="menu">
-        <button id="back-on-top" title="back on top"><img class="center" src="../images/arrowUP.png" alt="arrow Up"></button>
-        <ul>
-            <li><a href="../index.html" title="link for this page">Home</a></li>
-            <li><a class="active" href="../pages/menu.html#evento" title="go to the Event section">Evento</a></li>
-            <li><a href="../pages/menu.html#progetto" title="go to the Progetto section">Progetto</a></li>
-            <li><a href="../pages/menu.html#orari" title="go to the Orari section">Orari</a></li>
-            <li><a href="../pages/menu.html#biglietti" title="go to the Biglietti section">Biglietti</a></li>
-            <li><a href="../pages/menu.html#programma" title="go to the Programma section">Programma</a></li>
-            <li><a href="../pages/menu.html#contatti" title="go to the Contatti section">Contatti</a></li>
-            <li><a href="../pages/menu.html#villa" title="go to the Villa section">Location</a></li>
-        </ul>
+    <nav id="Topnav" class="topnav sticky">
+        <button id="back-on-top" title="back on top"><img class="center" src="./images/arrowUP.png" alt="arrow Up"></button>
+            <a href="./index.html" title="link for this page">Home</a>
+            <a class="active" href="./menu.html#evento" title="go to the Event section">Evento</a>
+            <a href="./menu.html#progetto" title="go to the Progetto section">Progetto</a>
+            <a href="./menu.html#orari" title="go to the Orari section">Orari</a>
+            <a href="./menu.html#biglietti" title="go to the Biglietti section">Biglietti</a>
+            <a href="./menu.html#programma" title="go to the Programma section">Programma</a>
+            <a href="./menu.html#contatti" title="go to the Contatti section">Contatti</a>
+            <a href="./menu.html#villa" title="go to the Villa section">Location</a>
+            <a class="icon" onclick="responsiveTopBar()"><i class="fa fa-bars"></i></a>
     </nav>
 
     <div id="image-background">
         <!--title box area-->
         <div id="title-area">
-            <a href="../index.html" title="back to the main page"><img id="title-area-image" src="../images/chef_white_icon.png" alt="event icon" title="back to the home page"></a>
+            <a href="./index.html" title="back to the main page"><img id="title-area-image" src="./images/chef_white_icon.png" alt="event icon" title="back to the home page"></a>
             <h1 id="title-text" class="title-font">
-                LE VIE DEI CASARI <br> 
-                <i id="title-text-small">Piccoli Caseifici Grandi Formaggi</i>
+                LE VIE DEI CASARI Piccoli Caseifici Grandi Formaggi
             </h1>
         </div>
     </div>
@@ -53,7 +51,7 @@
     <main id="evento" class="food-menu">
         <h3 class="title-font2">L'Evento</h3>
         <div class="food-menu1">
-            <div id="food-menu-text" class="left-float">
+            <div id="food-menu-text" class="left">
                 All’interno della prestigiosa <b>Villa Mezzabarba a Borgarello</b> (PV), oggi sede del Comune e della Biblioteca Comunale situata tra Milano e Pavia, avrete l’opportunità unica di assaggiare 70 formaggi rappresentativi dei territori dell’Arco Alpino. Vi immergerete in un percorso sensoriale potente e straordinario dal <b>Nostrale d’Alpe</b> della piemontese Valle Maira al <b>Tombea</b> della lombarda Val Vestino, dalla valdostana <b>Estrema di Alpeggio</b> al <b>TrentinGrana di malga</b>, dai formaggi a pasta molle sudtirolesi all’ <b>Asiago Stravecchio</b> per arrivare poi al raro friulano <b>Cuc di Mont</b>
             <br><br>      
                 Ogni produttore sarà raccontato attraverso un’audioguida accessibile tramite QR-Code per offrire un’esperienza di conoscenza unica e immersiva
@@ -62,19 +60,19 @@
             <br><br>
                 <a href="#programma">SCOPRI TUTTO IL PROGRAMMA</a> 
             </div>
-            <img class="right-float" src="../images/inside/location3.jpg" alt="location event image" title="location event image">
+            <img class="right" src="./images/inside/location3.jpg" alt="location event image" title="location event image">
         </div>
     </main>
     <hr>
     <main id="progetto" class="food-menu">
         <h3 class="title-font2">Il Progetto</h3>
         <div class="food-menu1">
-            <div id="food-menu-text" class="right-float">
+            <div id="food-menu-text" class="left">
                 Il progetto nasce dall’esigenza di valorizzare i protagonisti del mondo caseario: i produttori, le casare e i casari, insieme con il loro territorio, gli animali, le famiglie e le storie che rendono unico ogni formaggio. I prodotti caseari, soprattutto quelli di piccoli produttori in cui i legami sono ancora più forti, diventano così l’autentica espressione di questa straordinaria alchimia
                 <br><br>
                 Le Vie dei Casari è un viaggio narrativo e culturale attraverso piccole filiere lattiero-casearie che incarnano valori fondamentali: il rispetto per il pascolo, il benessere animale, la qualità del latte, la sostenibilità e l’amore per il territorio. L’obiettivo è ispirare i consumatori consapevoli, portandoli a scoprire percorsi caseari che raccontino le unicità del territorio
             </div>
-            <img class="left-float" src="../images/foodSS/3.JPG" alt="project event image" title="project event image">
+            <img class="right" src="./images/foodSS/3.JPG" alt="project event image" title="project event image">
         </div>
     </main>
     <hr>
@@ -95,9 +93,8 @@
     <hr>
     <main class="food-menu" id="biglietti">
         <h3 class="title-font2">I Biglietti</h3>
-        <div>
             <div class="food-menu1">
-                <div id="food-menu-text" class="right-float">
+                <div id="food-menu-text">
                     <h4 class="orange">Incluso nel biglietto:</h4>
                     <ul>
                         <li>Libero assaggio di tutti i formaggi + audiogiuda</li>
@@ -108,30 +105,30 @@
                     </ul>
                     <h4 class="orange">Il biglietto non include:</h4>
                     <ul>
-                        <li>Vino - ??? €</li>
-                        <li>Birra - ??? €</li>
-                        <li>Sake - ??? €</li>
+                        <li>Vino</li>
+                        <li>Birra</li>
+                        <li>Sake</li>
                     </ul>
                 </div>
 
-                <div id="food-menu-text" class="left-float">
-                    <br><br>
+                <div id="food-menu-text">
+                    <h4 class="orange yes">Prezzi:</h4>
+                    <br class="none"><br class="none">
                     <ul>
                         <li>Prevendita* online € 25</li>
                         <li>In Villa (secondo disponibilità) € 30</li>
                         <li>Bambini fino a 10 anni gratuito</li>
                         <li id="no-point">* Prevendita obbligatoria anche per i biglietti gratuita bambini</li>
                     </ul>
-                    <hr>
+                    <hr class="none">
                     <div id="big-menu-button">
                         <a href="https://oooh.events/" target="_blank" title="ticket page">PRESTO QUI POTRAI ACQUISTARE IL BIGLIETTO</a>
                     </div>
                     <div id="no-dogs">
-                        <img src="../images/icons/dogs.png" alt="no dogs image" title="no dogs image">
+                        <img src="./images/icons/dogs.png" alt="no dogs image" title="no dogs image">
                     </div>
                 </div>
             </div>
-        </div>
     </main>
     <hr>
     <main class="food-menu" id="programma">
@@ -166,15 +163,26 @@
                 <li><b>Da Piacenza:</b> Autostrada A21 direzione Torino, Uscita Broni-Stradella. Seguire la SS617 direzione Pavia. Immettersi sulla SS35 direzione Certosa di Pavia-Milano e proseguire fino a Borgarello </li>
             </ul> 
         </div>
-        <img id="mappa" src="../images/inside/mappa.jpg" alt="mappa image" title="mappa image">
+        <img id="mappa" src="./images/inside/mappa.jpg" alt="mappa image" title="mappa image">
     </main>
     <hr>
     <main class="food-menu" id="villa">
-        <h3 class="title-font2" id="programma">Villa Mezzabarba</h3>
+        <h3 class="title-font2">Villa Mezzabarba</h3>
         <div id="food-menu-text">
             Villa Mezzabarba è un edificio di costruzione settecentesca con parco annesso. Il feudatario Giovan Battista Mezzabarba commissionò la residenza all’architetto Veneroni e la fece erigere al centro della sua proprietà agricola a ridosso delle mura della Certosa di Pavia e della via d’acqua del Naviglio. La residenza di Borgarello, pur non presentando la monumentalità che caratterizzava altre ville sorte in Lombardia nel XVII e XVIII secolo, è ancora oggi di una eleganza sobria tanto all’esterno quanto all’interno. Nel 1763 il patrimonio della villa fu lasciato al conte Pio, ultimo erede di Giovan Battista e Girolamo Mezzabarba. Costui ne fu amministratore mediocre e la proprietà, afflitta da debiti, fu alienata e ceduta al nobile milanese Luigi Calvi. Nel 1946, per disposizione testamentaria di Paolina Calvi, la proprietà della villa e dell’annessa azienda agricola passò al Seminario Arcivescovile di Venegono (VA). Nel 1991 fu acquistata e ristrutturata da Diego Dalla Palma che ne fece la sua residenza per alcuni anni. Dopo diverse vicessitudini, nel 2017 venne acquisita dal Comune di Borgarello e attualmente è sede del Comune e della Biblioteca Comunale
         </div>
     </main>
+
+    <!--sezione degli sponsor-->
+    <section class="sponsor-section">
+        <hr>
+        <div class="sponsor-row">
+            <div class="sponsor-logos">
+                <div class="sponsor-logo"><img src="./images/sponsor/APS.png" alt="Logo APS"></div>
+                <div class="sponsor-logo"><img src="./images/sponsor/ONAF-TRAS.png" alt="Logo ONAF"></div>
+            </div>
+        </div>
+    </section>
 
     <footer id="footer">
         &copy; Copyright 2025 <br> Le vie dei Casari
@@ -184,8 +192,7 @@
             <a href="https://www.instagram.com/leviedeicasari" class="fa fa-instagram" target="_blank" title="instagram page"></a>
         </div>
     </footer>
-    <script src="../script/common.js"></script>
-    <script src="../script/menu.js"></script>
+    <script src="./script/common.js"></script>
 </body>
 
 </html>

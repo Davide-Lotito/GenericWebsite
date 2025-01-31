@@ -76,43 +76,6 @@
   }
 }
 
-/*media queries for the brief-description*/
-@media (max-width: 1100px) {
-  #brief-description h4 {
-    font-size: 1.5em;
-  }
-}
-
-/*media queries for the brief-description*/
-@media (max-width: 800px) {
-  #brief-description h4 {
-    float: none;
-    position: relative;
-    text-align: center;
-    left: 0;
-    width: 100%;
-    padding-top: 0;
-  }
-  #brief-description img {
-    float: none;
-    position: relative;
-    width: 100%;
-  }
-  #big-menu-button{
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    font-size: 300%;
-  }
-  .single-slide img{
-    position: relative;
-    width: 100%;
-    left: 0%;
-  }
-  .dots {
-    display: none;
-}
-}
-
 #big-menu-button {
   text-align: center;
   letter-spacing: 0.2em;
@@ -159,43 +122,6 @@
 #link-ticket:hover {
   background-color: rgb(192, 192, 192);
   color: black;
-}
-
-.sponsor-section {
-  text-align: center;
-  margin-top: 5%;
-}
-
-.sponsor-section h5{
-  font-size: 2em;
-}
-
-hr {
-  border: 1px solid black;
-  width: 80%;
-  margin: 20px auto;
-}
-
-.sponsor-row {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.sponsor-logos {
-  display: flex;
-  justify-content: space-around;
-  width: 80%; /* Adatta la larghezza in base alle tue esigenze */
-}
-
-.sponsor-logo {
-  width: 100px;
-  margin: 10px;
-}
-
-hr {
-  border: 1px solid black;
-  width: 80%;
 }
 
 @media (max-width: 768px) {

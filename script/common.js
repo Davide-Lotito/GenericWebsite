@@ -47,3 +47,12 @@ const audio = new Audio('../sounds/fart.mp3');
 buttontop.addEventListener('click', () => {
     audio.play();
 });
+
+function responsiveTopBar() {
+    var x = document.getElementById("Topnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+}
