@@ -1,4 +1,5 @@
 ## senstive data files
 /php/note.txt
+.env
 
 ## folders

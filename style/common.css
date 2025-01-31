@@ -14,11 +14,10 @@ body {
     display: none;
     position: fixed;
     bottom: 12%;
-    width: 10%;
+    width: 5%;
     z-index: 99;
     outline: none;
-    background-color: rgb(244,252,251);
-    opacity: 0.5;
+    background: none;
     cursor: pointer;
     padding-top: 0; padding-bottom: 0;
     padding-left: 0; padding-right: 0;
@@ -33,7 +32,9 @@ body {
 #menu{
     margin: 0;
     padding: 0;
-    position: relative;
+    position: fixed;
+    top: 0;
+    z-index: 99;
     width: 100%;
     /* width: 100vw; */
     color: #000;
@@ -92,13 +93,6 @@ body {
         font-size: 1em;
     }
 }
-
-/* @font-face {
-    font-family: "Indie Flower";
-    src: url("./fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-} */
 
 #footer {
     position: relative;
@@ -202,6 +196,11 @@ body {
     font-weight: bold;
 }
 
+.title-font5 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 #title-area {
     position: relative;
     width: 100%;
@@ -265,7 +264,8 @@ body {
 
 #header-progress-bar {
     position: fixed;
-    top: 0;
+    /* top: 0; */
+    bottom: 0;
     z-index: 1;
     width: 100%;
 }
@@ -277,8 +277,8 @@ body {
 
 #progress-bar{
     height: 8px;
-    background: rgb(146, 148, 148);
-    opacity: 0.9;
+    background: #e88100;
+    opacity: 0.8;
     width: 0%;
 }
 

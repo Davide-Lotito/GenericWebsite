@@ -29,10 +29,6 @@
     padding-left: 1em;
 }
 
-.food-menu-text .center{
-    text-align: center;
-}
-
 .food-menu1 img{
     border-radius: 15%;
 }
@@ -143,6 +139,39 @@ hr {
     border: 1px solid #e88100;
     width: 80%;
     margin: 20px auto;
+}
+
+h3 {
+    padding-top: 5%;
+}
+
+.lista-colorata {
+    list-style: none; /* Rimuoviamo i marker predefiniti delle liste */
+    padding: 0;
+}
+  
+.lista-colorata li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Spaziatura tra gli elementi */
+}
+  
+.cerchio-rosso {
+    color: red;
+    margin-right: 10px;
+    font-size: 50px;
+}
+  
+.cerchio-verde {
+    color: green;
+    margin-right: 10px;
+    font-size: 50px;
+}
+
+#email{
+    text-decoration: underline;
+    color: black;
+    background-color: transparent;
 }
 
 @media (max-width: 1400px){
