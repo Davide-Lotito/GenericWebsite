@@ -382,4 +382,30 @@ body {
     #back-on-top {
         width: 10%;
     }
+    #mappa{
+        margin: 0;
+        padding: 0;
+        height: 30vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .title-font2{
+        font-size: 2.5em;
+    }
+    .title-font4{
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 300px) {
+    .title-font2{
+        font-size: 2em;
+    }
+    .title-font4{
+        font-size: 2em;
+    }
+    #brief-description .text{
+        font-size: 1.5em;
+    }
 }
