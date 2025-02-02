@@ -305,6 +305,11 @@ body {
     display: none;
 }
 
+.sponsor-section img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {

@@ -49,6 +49,7 @@ buttontop.addEventListener('click', () => {
 });
 
 function responsiveTopBar() {
+    topFunction();
     var x = document.getElementById("Topnav");
         if (x.className === "topnav") {
           x.className += " responsive";
