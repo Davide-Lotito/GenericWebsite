@@ -139,6 +139,9 @@
   #image-background{
     height: 120vh;
   }
+  .title-font4{
+    font-size: 1.8em;
+  }
 }
 
 @media (max-height: 700px) {
