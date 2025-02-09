@@ -57,3 +57,14 @@ function responsiveTopBar() {
           x.className = "topnav";
         }
 }
+
+const immagineLink = document.querySelector('.immagine-link');
+const immagineSovraimpressa = document.querySelector('.immagine-sovraimpressa');
+
+immagineLink.addEventListener('mouseenter', () => {
+  immagineSovraimpressa.style.display = 'flex';
+});
+
+immagineLink.addEventListener('mouseleave', () => {
+  immagineSovraimpressa.style.display = 'none';
+});

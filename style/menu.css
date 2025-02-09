@@ -31,6 +31,14 @@
 
 .food-menu1 img{
     border-radius: 15%;
+    max-height: 500px;
+}
+
+.logo {
+    width: 50px; /* Larghezza del logo */
+    height: 50px; /* Altezza del logo */
+    vertical-align: middle; /* Allinea il logo al centro del testo */
+    margin-right: 10px; /* Spazio tra il logo e il titolo */
 }
 
 #food-menu-text{
@@ -44,7 +52,7 @@
     position: relative;
     width: 100%;
     left: 0%;
-    max-height: 600px;
+    max-height: 400px;
     border-radius: 15%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -190,6 +198,11 @@ h3 {
     left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+#biglietti-title{
+    text-align: left;
+    margin-left: 0;
 }
 
 @media (max-width: 900px){
